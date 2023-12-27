@@ -2,9 +2,7 @@ import mysql.connector
 
 '''
 BANK OF E : Online Banking Platform
-Copyright: Mehul Arora 2020
 Test Admin ID Password:
-    sociallyencrypted, mrrobot59
     tyrellwellick, joanna66
 '''
 db = mysql.connector.connect(host='localhost', username='root', password='mysql12345', database='bankofe')

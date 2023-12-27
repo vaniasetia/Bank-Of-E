@@ -30,5 +30,4 @@ pwd VARCHAR(30) NOT NULL,
 cust_id INT(5) NOT NULL,
 admin INT(1) NOT NULL );
 
-INSERT INTO credentials VALUES ("tyrellwellick","joanna66",00002,1);
 INSERT INTO credentials VALUES ("sociallyencrypted","mrrobot59",00001,1);

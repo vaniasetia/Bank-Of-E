@@ -4,17 +4,16 @@ This is a class 12th CBSE Computer Science project, coded in python. It uses Pyt
 
 ## Prerequisites
 
-The project requires mysql-conector-python to function
-
+The project requires the Python module `mysql-conector-python` to function. You can install it using the following command:
 ```
-$pip install mysql-connector-python
+pip install mysql-connector-python
 ```
 
 ## Installation
 
-Edit BankOfE_DatabaseInstaller.sql and change admin names at the end of the file as per your choice. Then run the follwoing command.
+Edit BankOfE_DatabaseInstaller.sql and change admin names at the end of the file as per your choice. Then run the following command.
 ```bash
-mysql -u <username> -p -e 'source \bankofe-cs-project\BankOfE_Databaseinstaller.sql;''
+mysql -u <username> -p -e 'source \bankofe-cs-project\BankOfE_Databaseinstaller.sql;'
 ```
 
 ## Usage
